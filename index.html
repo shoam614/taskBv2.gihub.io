@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo</title>
+  <link rel="stylesheet" href="MyStyle.css">
+  <script src="https://kit.fontawesome.com/911081c90a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body onload="onLoadPage()">
+<div class="header" id="shoamtest">welcome to my task board!</div>
+<div class="form" id="form1">
+  <form>
+  <div class="inputss"><input type="text" id="title" class="inputss" placeholder="Title" required></div>
+  <div class="inputss"><input type="text" id="task" class="inputss" placeholder="Task" required></div>
+  <div class="inputss"><input type="date" id="date" class="inputss" required></div>
+  <div class="inputss"><input type="time" id="time" class="inputss"></div>
+  <buttom class="btn btn-primary btn-sm" id="submit" type="submit" value="Submit" onclick="createNote()">Submit</buttom>
+  <buttom type="reset" value="Reset" class="btn btn-outline-primary btn-sm" onclick = "resetForm()" >Reset</buttom>
+  </form>
+</div>
+<!--<div class="myNote" onmouseover="mouseOver()" id="card" hidden onmouseout="mouseOut()">-->
+<!--  <i onclick="mouseClick1()" class="fas fa-times-circle x" hidden id="delete"></i>-->
+<!--  <div id="shh"></div>-->
+
+<!--&lt;!&ndash;<h3 id="task1" class="title"></h3>&ndash;&gt;-->
+<!--&lt;!&ndash;<h5 id="task2"></h5>&ndash;&gt;-->
+<!--&lt;!&ndash;<span id="task3" class="date"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;<span id="task4" class="time"></span>&ndash;&gt;-->
+<!--</div>-->
+
+<div id="addNote"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="myJava2.js"></script>
+
+</body>
+</html>
